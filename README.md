@@ -1,6 +1,11 @@
 # ScriptTools Powershell Module
 This Powershell Module provides some helpful Functions to get startet with a new Powershell Script Project. 
 
+```
+Import-Module <ModulePath> -Force
+
+Get-Command -Module ScriptTools
+```
 ## Initialize-PSScript
 This function generates a Folder Structure for your next Powershell script project.
 
